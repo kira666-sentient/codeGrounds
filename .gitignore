@@ -1,0 +1,7 @@
+node_modules/
+projects/
+.env
+.DS_Store
+*.log
+codegrounds.state.json
+codegrounds.index.json

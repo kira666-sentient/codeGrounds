@@ -1,0 +1,25 @@
+{
+  "name": "codegrounds",
+  "version": "1.0.0",
+  "description": "Multi-Agent Coding Studio",
+  "main": "lib/Orchestrator.js",
+  "bin": {
+    "codegrounds": "./bin/codegrounds.js"
+  },
+  "scripts": {
+    "start": "node bin/codegrounds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.3",
+    "inquirer": "^8.2.7",
+    "ora": "^5.4.1"
+  }
+}
