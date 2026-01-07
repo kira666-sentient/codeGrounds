@@ -14,7 +14,7 @@ dotenv.config({ path: path.join(process.cwd(), '.env') });
 async function main() {
     console.clear();
     console.log(chalk.cyan.bold('╔════════════════════════════════════════╗'));
-    console.log(chalk.cyan.bold('║           CODEGROUNDS 7.0              ║'));
+    console.log(chalk.cyan.bold('║           CODEGROUNDS 8.0              ║'));
     console.log(chalk.cyan.bold('║      Autonomous AI Coding Studio       ║'));
     console.log(chalk.cyan.bold('╚════════════════════════════════════════╝'));
     console.log('');
@@ -86,3 +86,4 @@ async function main() {
 }
 
 main();
+
